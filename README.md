@@ -73,9 +73,9 @@ if report: "ResolvePackageNotFound:xxx", or "No matching distribution found for 
 ### KDD-99:
 Please click the link below to download the "kddcup.data_10_percent.zip A 10% subset. (2.1M; 75M Uncompressed)" dataset:  
 https://www.kdd.org/kdd-cup/view/kdd-cup-1999/Data  
-The data preprocessing in main.py will generate KDD99/data.pkl file. 
+The data preprocessing in main.py will generate KDD99/data.pkl and data_constraint_info.pkl files. 
 ### MNIST:
-Please click the link below to download the "mnist.mat": 
+Please click the link below to download the "mnist.mat":   
 https://odds.cs.stonybrook.edu/mnist-dataset/
 
 ### Author-Paper:  This dataset is the papers crawled from arXiv preprint database.  
@@ -112,4 +112,12 @@ python -u main.py -dataset "KDD99" -attack_mode 'DeepWalk' -gpuID 0
 python -u main.py -dataset "KDD99" -attack_mode 'random' -gpuID 0
 ```
 
-
+```bash
+@article{lai2023dualspace,
+  title =      {Dual-Space Attacks against Random-Walk-based Anomaly Detection},
+  author =      {Yuni, Lai and Marcin, Waniek and Yulin, Zhu and Liying, Li and Jingwen,  
+                  Wu and Tomasz P., Michalak and Talal, Rahwan and Kai, Zhou},
+  year =      {2023}.
+  journal={arXiv preprint},
+}
+```
