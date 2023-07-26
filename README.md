@@ -112,12 +112,13 @@ python -u main.py -dataset "KDD99" -attack_mode 'DeepWalk' -gpuID 0
 python -u main.py -dataset "KDD99" -attack_mode 'random' -gpuID 0
 ```
 
+
 ```bash
 @article{lai2023dualspace,
-  title =      {Dual-Space Attacks against Random-Walk-based Anomaly Detection},
-  author =      {Yuni, Lai and Marcin, Waniek and Yulin, Zhu and Liying, Li and Jingwen,  
-                  Wu and Tomasz P., Michalak and Talal, Rahwan and Kai, Zhou},
-  year =      {2023}.
-  journal={arXiv preprint},
+  title = {Dual-Space Attacks against Random-Walk-based Anomaly Detection},
+  author = {Yuni, Lai and Marcin, Waniek and Yulin, Zhu and Liying, Li and Jingwen, Wu
+            and Tomasz P., Michalak and Talal, Rahwan and Kai, Zhou},
+  year = {2023}.
+  journal = {arXiv preprint},
 }
 ```
