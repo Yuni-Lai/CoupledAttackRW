@@ -1,5 +1,5 @@
-# Dual-space Attack against Random-Walk-based Anomaly Detection
-This is the source code for "Dual-Space Attacks against Random-Walk-based Anomaly Detection".  
+# Coupled-space Attack against Random-Walk-based Anomaly Detection
+This is the source code for "Coupled-Space Attacks against Random-Walk-based Anomaly Detection".  
 
 ## Structure 
 ```bash
@@ -115,8 +115,8 @@ python -u main.py -dataset "KDD99" -attack_mode 'random' -gpuID 0
 
 ```bash
 @misc{lai2023dualspace,
-  title = {Dual-Space Attacks against Random-Walk-based Anomaly Detection},
-  author = {Yuni, Lai and Marcin, Waniek and Yulin, Zhu and Liying, Li and Jingwen, Wu
+  title = {Coupled-Space Attacks against Random-Walk-based Anomaly Detection},
+  author = {Yuni, Lai and Marcin, Waniek and Liying, Li and Jingwen, Wu and Yulin, Zhu
             and Tomasz P., Michalak and Talal, Rahwan and Kai, Zhou},
   year = {2023},
   journal = {arXiv preprint:2307.14387},
